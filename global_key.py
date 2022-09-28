@@ -8,16 +8,16 @@
 #
 # function1()
 # print(l)
-
+m=50
 def Harry():
-    x=20
+    k=20
     def Rohan():
         global x
         x=55
-        print("inside rohan",x)
+        print("inside rohan",x,m,k)
     Rohan()
-    print("Inside harry",x)
+    print("Inside harry",x,m,k)
 
 # print("outside harry",x)
 Harry()
-print("outside harry",x)
+print("outside harry",x,m)
